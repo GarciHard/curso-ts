@@ -1,0 +1,22 @@
+{
+  "name": "curso-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarciHard/curso-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarciHard/curso-ts/issues"
+  },
+  "homepage": "https://github.com/GarciHard/curso-ts#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
