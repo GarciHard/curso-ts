@@ -23,3 +23,20 @@ let anExtremelyLongNumber: number = 13_130_130_131;
 
 /* strings */
 let aString: string = 'jasdanj2394das';
+
+/* any */
+let anything: any;
+anything = "an string";
+anything = false;
+
+/* null */
+let nothig: null = null;
+
+/* undefined */
+let anUndefined: undefined = undefined;
+
+/* void */
+function sample(): void {
+    console.log(":D");
+}
+let x = sample();
