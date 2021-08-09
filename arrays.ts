@@ -53,3 +53,28 @@ db.pop();
 for (let elements of db) {
     console.log(elements);
 }
+
+/* object type */
+let anObject : {
+    name: string,
+    age: number,
+    country: string,
+    bornDate: Date,
+    activeUser: boolean,
+    employmentInfo: {
+        company: string,
+        sector: string
+    }
+} = {
+    name: "Alexis",
+    age: 13,
+    country: "México",
+    bornDate: new Date(2007, 10, 13),
+    activeUser: true,
+    employmentInfo: {
+        company: "HSBC",
+        sector: "Financial"
+    }
+}
+
+console.log( anObject );
