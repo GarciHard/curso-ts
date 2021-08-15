@@ -1,22 +1,22 @@
 /* First class on TS */
 class Figure {
     
-    heigth: number;
-    width: number;
+    /* We can set private properties using the 'private' word or using '#' (available on ECMAScript 2015 and higher) */
+
+    private height: number;
+    private width: number;
 
     constructor( height: number, width: number ) {
-        this.heigth = height;
+        this.height = height;
         this.width = width;
     }
 
     area() {
-        console.log("area()");
-        return this.heigth * this.width;
+        return this.height * this.width;
     }
 
     perimeter() {
-        console.log("perimeter()");
-        return (this.heigth * 2) + (this.width * 2);
+        return (this.height * 2) + (this.width * 2);
     }
 }
 
